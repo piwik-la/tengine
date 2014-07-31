@@ -23,6 +23,6 @@ sudo /usr/bin/mysql_secure_installation
 sudo chkconfig --levels 235 mysqld on
 sudo chkconfig --levels 235 nginx on
 sudo chkconfig --levels 235 php-fpm on
-sudo service php5-fpm restart
+sudo service php-fpm restart
 sudo service nginx restart
 sudo service mysqld restart
