@@ -1,9 +1,9 @@
 #Install tengine
 yum install gcc gcc-c++ pcre-devel openssl openssl-devel 
 cd /usr/local/src
-wget http://tengine.taobao.org/download/tengine-2.0.3.tar.gz
-tar zxvf tengine-2.0.3.tar.gz
-cd tengine-2.0.3
+wget http://tengine.taobao.org/download/tengine-2.1.0.tar.gz
+tar zxvf tengine-2.1.0.tar.gz
+cd tengine-2.1.0
 ./configure
 make
 make install
