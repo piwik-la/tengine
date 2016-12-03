@@ -1,9 +1,9 @@
 #Install tengine
 yum install gcc gcc-c++ pcre-devel openssl openssl-devel 
 cd /usr/local/src
-wget http://tengine.taobao.org/download/tengine-2.1.0.tar.gz
-tar zxvf tengine-2.1.0.tar.gz
-cd tengine-2.1.0
+wget http://tengine.taobao.org/download/tengine-2.2.0.tar.gz
+tar zxvf tengine-2.2.0.tar.gz
+cd tengine-2.2.0
 ./configure --prefix=/usr --conf-path=/etc/nginx/nginx.conf --pid-path=/var/run/nginx.pid --lock-path=/var/lock/nginx.lock --http-client-body-temp-path=/var/tmp/nginx/client --http-proxy-temp-path=/var/tmp/nginx/proxy --http-fastcgi-temp-path=/var/tmp/nginx/fastcgi --http-scgi-temp-path=/var/tmp/nginx/scgi --http-uwsgi-temp-path=/var/tmp/nginx/uwsgi --with-http_concat_module --with-http_sysguard_module --with-http_stub_status_module
 make
 make install
