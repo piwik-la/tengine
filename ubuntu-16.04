@@ -1,6 +1,0 @@
-
-git clon https://github.com/alibaba/tengine.git
-cd tengine
-./configure
-make
-make install
